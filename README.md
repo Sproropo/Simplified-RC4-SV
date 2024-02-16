@@ -18,7 +18,3 @@ clk, rst_n, key_valid, key_input, din, din_valid
 key_stream_valid, dout, dout_ready
 ### Registers
 Key_stream, Key, i, j, S
-
-## How does it work
-- Key Loading: New keys are introduced via the key_valid signal and corresponding inputs.
-- Encryption Process: Observe the key_stream_valid and dout_ready signals to coordinate valid ciphertext output.
