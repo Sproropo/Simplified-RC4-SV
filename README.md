@@ -2,8 +2,8 @@
 This project implements a hardware module for a simplified version of the RC4 stream cipher, designed for encrypting plaintext. The implementation includes both the Key Scheduling Algorithm (KSA) and the Pseudo-Random Generation Algorithm.
 
 ## Project Structure
-rc4.sv: Contains the rc4 module, the source code for the hardware implementation of the RC4 cipher.
-rc4_tb.sv: Contains the rc4_tb testbench module, which drives, stimulates, and validates the behavior of the rc4 module.
+- rc4.sv: Contains the rc4 module, the source code for the hardware implementation of the RC4 cipher.
+- rc4_tb.sv: Contains the rc4_tb testbench module, which drives, stimulates, and validates the behavior of the rc4 module.
 
 ## Key Features
 - Fixed Key Length: Employs a 16-byte symmetric key
